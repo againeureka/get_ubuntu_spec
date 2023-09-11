@@ -1,7 +1,7 @@
 # Get Ubuntu Spec.
 
 - List of commands to check Ubuntu system specifications
-
+- J. Park @ 2023
 
 --------------------------------
 ## CPU
@@ -91,3 +91,17 @@ $ sudo fdisk -l | grep TiB
 ```
 
 
+--------------------------------
+## Network
+
+- Port
+  
+```bash
+$ sudo netstat -ap
+```
+
+- Network Monitoring
+
+```bash
+$ bmon
+```
